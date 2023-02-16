@@ -1,3 +1,10 @@
+// In this example, we have defined four classes: 
+// Vehicle, Person, Car, and Truck. The Vehicle and Person classes are abstract,
+// meaning that they cannot be instantiated directly, but instead serve as blueprints for other classes to extend.
+// The Car and Truck classes extend the Vehicle class, inheriting its properties and methods. 
+// The Employee and Customer classes extend the `Person
+
+
 // Abstract class representing a generic vehicle
 abstract class Vehicle {
   String get make;

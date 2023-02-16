@@ -1,3 +1,11 @@
+// In this example, we have an abstract Person class that defines the introduce() method.
+// The Student and Teacher classes inherit from the Person class and implement their own version of the introduce() method.
+// We also have an example of encapsulation with the School class, which has a private _people list 
+// and public methods to add people to the list and list all people in the list.
+// Finally, we have an example of polymorphism with the doSomething() function that takes a Person object 
+// and calls its introduce() method, regardless of whether the object is a Student or a Teacher.
+
+
 // Abstract class
 abstract class Person {
   void introduce();

@@ -1,3 +1,12 @@
+// In this example, we have an abstract class Product that defines the properties and methods for a product.
+// We have two concrete classes Clothing and Electronics that inherit from Product. These classes implement the calculateTax method,
+// which is a polymorphic behavior, to calculate the tax for the product.
+// We also have an abstract class ShoppingCart that defines the properties and methods for a shopping cart.
+// This class has two concrete classes CustomerCart and BusinessCart that inherit from it. These classes encapsulate the logic for adding and removing items from the shopping cart, and they also implement the calculateTotal method, which is another polymorphic behavior, to calculate the total cost of the items in the cart.
+// In the main function, we create some products, and then we create a customer's shopping cart and a business's shopping cart.
+// We add some items to each cart, and then we calculate the total cost of the items in each cart.
+
+
 // Abstract class for the product
 abstract class Product {
   String name;
