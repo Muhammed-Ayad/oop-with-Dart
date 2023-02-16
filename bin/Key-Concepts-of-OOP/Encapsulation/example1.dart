@@ -1,28 +1,28 @@
-class BankAccount {
-  double balance;
+class Person {
+  String _name; // private instance variable
+  int _age; // private instance variable
 
-  BankAccount(this.balance);
+  Person(this._name, this._age); // constructor
 
-  void deposit(double amount) {
-    balance += amount;
-  }
+  // getters
+  String get name => _name;
+  int get age => _age;
 
-  void withdraw(double amount) {
-    if (balance >= amount) {
-      balance -= amount;
-    } else {
-      print('Insufficient balance');
-    }
-  }
+  // setters
+  set name(String name) => _name = name;
+  set age(int age) => _age = age;
 
-  double getBalance() {
-    return balance;
+  // method
+  void sayHello() {
+    print("Hello, my name is $_name and I am $_age years old.");
   }
 }
 
 void main() {
-  var account = BankAccount(1000.0);
-  account.deposit(500.0);
-  account.withdraw(200.0);
-  print('Balance: ${account.getBalance()}');
+  var person = Person("Mohamed", 25);
+  person.sayHello();
+
+  person.name = "Mary";
+  person.age = 30;
+  person.sayHello();
 }
