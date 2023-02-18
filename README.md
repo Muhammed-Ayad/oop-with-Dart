@@ -8,6 +8,26 @@
   <li>Encapsulation is the process of hiding internal implementation details of an object from the outside world.</li>
   <li>Polymorphism is the ability of objects to take on different forms.</li>
 </ul>
+	<h2>The SOLID principles are a set of five design principles for writing maintainable and scalable code. These principles are:</h2>
+	<ol>
+		<li>
+			<strong>Single Responsibility Principle (SRP):</strong> A class should have only one reason to change, meaning that it should have only one responsibility.
+		</li>
+		<li>
+			<strong>Open-Closed Principle (OCP):</strong> A class should be open for extension but closed for modification, meaning that you should be able to extend its behavior without modifying its source code.
+		</li>
+		<li>
+			<strong>Liskov Substitution Principle (LSP):</strong> Subtypes must be substitutable for their base types, meaning that a derived class should be able to be used in place of its parent class without causing any problems.
+		</li>
+		<li>
+			<strong>Interface Segregation Principle (ISP):</strong> Clients should not be forced to depend on interfaces they do not use, meaning that you should design interfaces that are tailored to specific client needs.
+		</li>
+		<li>
+			<strong>Dependency Inversion Principle (DIP):</strong> High-level modules should not depend on low-level modules, meaning that you should design your code so that high-level modules depend on abstractions, not on concrete implementations.
+		</li>
+	</ol>
+	<p>Overall, applying the SOLID principles can help you write code that is more maintainable, scalable, and flexible. By following these principles, you can design code that is easier to test, easier to extend, and less prone to bugs and errors.</p>
+	
 <h2>Head First Object-Oriented Analysis and Design</h2>
 <p>This section provides key takeaways from the book "Head First Object-Oriented Analysis and Design", which aims to teach object-oriented design principles and practices in a way that is easy to understand and fun to read.</p>
 <ul>
